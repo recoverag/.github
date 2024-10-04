@@ -1,28 +1,8 @@
----
-name: Base Issue Template
-about: Base template for all issues
-title: "Brief description"
-labels: needs-triage
-projects: 'eunice'
-assignees: ''
----
-
-## Metadata and Tracking
-
-Please fill out the sections below to help us understand your issue and track effectively.
-Not every section is required.
-When in doubt, provide an initial guess as basis for discussion.
-After reviewing the issue, we'll update as needed.
-
 ### To-Do List 📝
 - [ ] Task 1
 - [ ] Task 2
 - [ ] Task 3
 (Add or remove tasks as needed)
-
-### Related work
-
-**Related Issues/PRs:** [Link to any related issues, pull requests, or documentation]
 
 ### Impact Assessment 📊
 
@@ -36,8 +16,6 @@ After reviewing the issue, we'll update as needed.
 - `!p1`: High priority. Should be included in the current or next cycle.
 - `!p2`: Medium priority. Plan to address in the near future, within the next few cycles.
 - `!p3`: Low priority. Nice to have, but not crucial. Will be addressed as time and resources allow.
-
-**Related Project/Component:** [Specify the project or component this issue relates to]
 
 ### Communication and Timeline 📅
 
