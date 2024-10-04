@@ -1,9 +1,8 @@
 ---
 name: Experiment Request
 about: Use this template to create and track a new data science experiment
-title: "[EXPERIMENT]: Brief description"
-labels: experiment, data-science
-projects: 'eunice'
+title: "[YYYY-MM-DD]: Experiment name"
+labels: question, @yadle
 assignees: ''
 ---
 

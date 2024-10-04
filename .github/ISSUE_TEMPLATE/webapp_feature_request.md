@@ -2,7 +2,7 @@
 name: Web Application Feature Request
 about: Suggest a new feature for the web application
 title: "[WEB FEATURE]: Brief description"
-labels: enhancement, web-app
+labels: enhancement, @eunice-webapp
 assignees: ''
 ---
 

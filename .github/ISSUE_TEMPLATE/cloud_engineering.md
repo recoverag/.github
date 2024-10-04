@@ -1,8 +1,8 @@
 ---
 name: Cloud Engineering Feature Request
 about: Suggest a new feature for cloud infrastructure
-title: "[CLOUD FEATURE]: Brief description"
-labels: enhancement, cloud-engineering
+title: "Brief description"
+labels: enhancement, @cloud-engineering
 assignees: ''
 ---
 

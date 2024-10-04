@@ -1,8 +1,8 @@
 ---
 name: ML Engineering Issue
 about: Use this template to create and track machine learning engineering tasks and issues
-title: "[ML ENGINEERING]: Brief description"
-labels: ml-engineering, needs-triage
+title: "Brief description"
+labels: enhancement, @ml-engineering
 assignees: ''
 projects: ''
 ---
