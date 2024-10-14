@@ -29,8 +29,9 @@ Note: While multiple types can be selected, please consider splitting your PR if
 - [ ] ⬆️ I have updated any necessary dependencies
 - [ ] 👽 Any dependent changes have been merged and published in downstream modules
 
-## Reviewer Assignment 👀
+## Reviewer and Project Assignment 👀
 - [ ] I have assigned the appropriate team or specific reviewer(s) for this PR
+- [ ] If approriate, I have assigned this PR to a project and set the adequate status and the cycle values
 
 ## Backward Compatibility 🔄
 - [ ] These changes are backward compatible
