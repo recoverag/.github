@@ -4,6 +4,7 @@ about: Report a bug in the system
 title: "repo: Brief description"
 labels: bug
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Bug Report 🐛

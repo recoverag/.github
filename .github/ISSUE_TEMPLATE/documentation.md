@@ -4,6 +4,7 @@ about: Request new or updated documentation
 title: "repo: Brief description"
 labels: documentation
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Documentation Request 📚

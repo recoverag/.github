@@ -4,6 +4,7 @@ about: Suggest a new feature for data engineering
 title: "repo: Brief description"
 labels: feature, infrastructure
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Data Engineering Feature Request 📊

@@ -4,6 +4,7 @@ about: Suggest a significant new feature for the web application
 title: "eunice-webapp: Brief description"
 labels: feature, @eunice-webapp
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 Note: This template is for substantial new features. For smaller improvements to existing features, please use the Web Application Improvement Request template.

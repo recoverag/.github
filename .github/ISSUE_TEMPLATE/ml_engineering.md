@@ -4,7 +4,7 @@ about: Use this template to create and track machine learning engineering tasks 
 title: "dskit: Brief description"
 labels: feature, @dskit
 assignees: ''
-projects: ''
+projects: 'vitidore/6'
 ---
 
 ## Machine Learning Engineering Issue 🤖

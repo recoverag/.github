@@ -4,6 +4,7 @@ about: Suggest a new feature for cloud infrastructure
 title: "repo: Brief description"
 labels: feature, infrastructure
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Cloud Engineering Feature Request :cloud:

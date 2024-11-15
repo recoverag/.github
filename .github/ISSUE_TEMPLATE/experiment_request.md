@@ -4,6 +4,7 @@ about: Use this template to create and track a new data science experiment
 title: "yadle: [YYYY-MM-DD] Experiment name"
 labels: feature, question, @yadle
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Experiment Request 🧪
