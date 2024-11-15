@@ -1,8 +1,8 @@
 ---
 name: Experiment Request
 about: Use this template to create and track a new data science experiment
-title: "[YYYY-MM-DD]: Experiment name"
-labels: question, @yadle
+title: "yadle: [YYYY-MM-DD] Experiment name"
+labels: feature, question, @yadle
 assignees: ''
 ---
 

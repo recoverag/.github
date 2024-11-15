@@ -1,8 +1,8 @@
 ---
 name: ML Engineering Issue
 about: Use this template to create and track machine learning engineering tasks and issues
-title: "Brief description"
-labels: enhancement, @ml-engineering
+title: "dskit: Brief description"
+labels: feature, @dskit
 assignees: ''
 projects: ''
 ---

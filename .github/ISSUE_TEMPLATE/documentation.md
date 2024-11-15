@@ -1,7 +1,7 @@
 ---
 name: Documentation Request
 about: Request new or updated documentation
-title: "Brief description"
+title: "repo: Brief description"
 labels: documentation
 assignees: ''
 ---

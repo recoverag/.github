@@ -1,8 +1,8 @@
 ---
 name: Data Engineering Feature Request
 about: Suggest a new feature for data engineering
-title: "Brief description"
-labels: enhancement, @data-engineering
+title: "repo: Brief description"
+labels: feature, infrastructure
 assignees: ''
 ---
 

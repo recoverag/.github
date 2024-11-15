@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Report a bug in the system
-title: "Brief description"
+title: "repo: Brief description"
 labels: bug
 assignees: ''
 ---
