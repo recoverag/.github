@@ -4,6 +4,7 @@ about: Suggest an improvement for an existing feature in the web application
 title: "eunice-webapp: Brief description"
 labels: improvement, @eunice-webapp
 assignees: ''
+projects: 'vitidore/6'
 ---
 
 ## Web Application Improvement Request 🛠️
