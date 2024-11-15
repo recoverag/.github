@@ -1,12 +1,14 @@
 ---
 name: Web Application Feature Request
-about: Suggest a new feature for the web application
-title: "[WEB FEATURE]: Brief description"
-labels: enhancement, @eunice-webapp
+about: Suggest a significant new feature for the web application
+title: "eunice-webapp: Brief description"
+labels: feature, @eunice-webapp
 assignees: ''
 ---
 
-## Web Application Feature Request 🌐
+Note: This template is for substantial new features. For smaller improvements to existing features, please use the Web Application Improvement Request template.
+
+## Web Application Feature Request :sparkles:
 
 Hello, Team software member!
 Please use this template to document and track web application feature requests.
@@ -22,11 +24,16 @@ After reviewing the issue, we'll update as needed.
 
 ### Specific Details 🔬
 
-**UI/UX Considerations:** [Describe any UI/UX considerations or attach mockups]
+### Specific Details 🔬
 
-**Containers affected:** [Provide a list of the front-end containers affected]
+**UI/UX Design:** [Attach mockups or detailed descriptions of the new UI/UX]
 
-**Components affected:** [Provide a list of the front-end components affected]
+**New Containers:** [List any new front-end containers required]
+
+**New Components:** [List any new front-end components required]
+
+**Existing Components Affected:** [List existing components that need modification]
+
 
 **Technical Considerations:**
 - Front-end: [Describe any front-end work required]

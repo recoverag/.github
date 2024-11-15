@@ -1,12 +1,12 @@
 ---
 name: Cloud Engineering Feature Request
 about: Suggest a new feature for cloud infrastructure
-title: "Brief description"
-labels: enhancement, @cloud-engineering
+title: "repo: Brief description"
+labels: feature, infrastructure
 assignees: ''
 ---
 
-## Cloud Engineering Feature Request ☁️
+## Cloud Engineering Feature Request :cloud:
 
 Hello, Team software member!
 Please use this template to document and track cloud engineering feature requests.
