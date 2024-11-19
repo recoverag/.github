@@ -25,8 +25,6 @@ After reviewing the issue, we'll update as needed.
 
 ### Specific Details 🔬
 
-### Specific Details 🔬
-
 **UI/UX Design:** [Attach mockups or detailed descriptions of the new UI/UX]
 
 **New Containers:** [List any new front-end containers required]
