@@ -1,65 +1,67 @@
-## Description 📝
-[Provide a brief description of the changes in this PR]
+<!-- 
+This PR describes HOW to solve issue #[number].
+Start as RFC for design discussion BEFORE coding.
+Add code changes AFTER design approval.
+-->
 
-## Related Issue 🔗
-[If applicable, link to the issue(s) this PR addresses]
+## Context & Goals
 
-## Type of Change 🔄
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ✨ New feature (non-breaking change which adds functionality)
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 📚 Documentation changes
+**Solving**: #[issue number] - [one-line summary]
+**Goals**: [In your own words, why are we doing this? What are the current and desired states? Don't propose solutions, keep the solutions for the design section.]
+**Success Metrics**: [How will we know we've made progress? What specific metrics/behaviors will change?]
 
-Note: While multiple types can be selected, please consider splitting your PR if it encompasses significantly different types of changes.
 
-## Submission Checklist ✅
-- [ ] 🦺 I have performed a self-review of my own code
-  - [ ] ♻️ Variables, functions and class names have meaningful, self-explanatory names
-  - [ ] 📝 Functions and methods have docstrings
-  - [ ] 🏷️ Typing annotations have been added where possible
-  - [ ] ♻️ Most functions are less than 50 lines of code
-  - [ ] 💡 I have commented my code, particularly in hard-to-understand areas
-  - [ ] ⚡ I have thought about the performance of my code and how it could be improved
-  - [ ] 🔒 I have considered the security implications of the proposed changes
-- [ ] 🧪 I have tested that my code works as intended
-  - [ ] ✅ New and existing unit tests pass locally with my changes
-  - [ ] ✅ If appropriate, I have added new tests to cover my changes
-- [ ] 💚 If appropriate, building works locally and/or runs successfully after my changes
-- [ ] 📝 If appropriate, I have added documentation for my changes
-- [ ] ⬆️ I have updated any necessary dependencies
-- [ ] 👽 Any dependent changes have been merged and published in downstream modules
+## Design
 
-## Reviewer and Project Assignment 👀
-- [ ] I have assigned the appropriate team or specific reviewer(s) for this PR
-- [ ] If approriate, I have assigned this PR to a project and set the adequate status and the cycle values
+[How do you intend to achieve the goals? Include enough information to evaluate the design. Wrong is better than vague. Be clear: no passive voice; no bare "this"/"that". This section may include: APIs, pseudo-code/snippets, diagrams, wireframes, etc. Make it easy to change, prefer boring technology, solve the general problem.]
 
-## Backward Compatibility 🔄
-- [ ] These changes are backward compatible
-- [ ] If not backward compatible, I have provided a migration path or deprecation notice
+### Technical Details
+**Frontend Changes**:
+- Containers: [List affected containers]
+- Components: [New/modified components]
 
-## Documentation of Breaking Changes (if applicable) 📚
-- [ ] If this is a breaking change, I have documented the changes and necessary updates for users
+**Backend Changes**:
+- Services: [Affected services/APIs]
+- Data: [Schema/pipeline changes]
 
-## Screenshots (if applicable) 🖼️
-- [ ] I have included relevant screenshots or GIFs demonstrating the changes
+**Dependencies**: [External systems, libraries, services]
 
-## How Has This Been Tested? 🧪
-[Describe the tests that you ran to verify your changes. Provide instructions so we can reproduce.]
+**Testing strategy**: [How will you verify the design works? What new tests are needed? If no new tests, why?]
 
-## Additional Context ℹ️
-[Add any other context about the PR here]
 
-## Definition of Done ✅
-This PR is considered done when:
-- [ ] All checklist items are completed
-- [ ] The code has been reviewed and approved by at least one team member
-- [ ] All tests are passing
-- [ ] Documentation has been updated (if necessary)
-- [ ] The changes have been successfully deployed to a staging environment (if applicable)
+## Security/privacy/compliance
 
-Remember to update this PR with any new findings or changes as you address feedback.
-Good luck with your code review! 🍀
+[Does the design touch/collect user data? Does it open new attack surfaces? How are you storing keys, secrets? If this is not relevant, why?]
+
+## Alternatives considered & Prior art
+
+[What else could work? Why this approach? Prior art?]
+
+
+<!--
+Include the following sections as needed:
+
+## Background
+
+[What additional information is needed to evaluate this design?]
+
+## Trade-offs
+
+[What are the disadvantages of this design?]
+
+## Risks & Mitigations
+
+[What could go wrong? What's the worst that could happen? How do we prevent this worst-case scenario?]
+
+## Dependencies
+
+[What are we expecting from other stakeholders to execute on the design?]
+
+## Operations
+
+[Who will run the designed solution? How will the solution be monitored?]
+
+-->
 
 ---
-
-"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler
+*Use comments below to discuss the design.*
