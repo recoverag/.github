@@ -19,7 +19,7 @@ projects: 'recoverag/6'
 
 [Link to RFC PR in /rfcs/]
 
-## Sub-issues
+## Definition of Done as Sub-issues
 
 - [ ] #issue1
 - [ ] #issue2

@@ -15,7 +15,7 @@ projects: 'recoverag/6'
 
 [What happens if we don't do this?]
 
-## Sub-issues
+## Definition of Done as Sub-issues
 
 - [ ] #issue1
 - [ ] #issue2

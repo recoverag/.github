@@ -11,6 +11,6 @@ projects: 'recoverag/6'
 
 [What's broken or missing?]
 
-## Done when
+## Definition of Done
 
 - [ ] [One concrete criterion]
