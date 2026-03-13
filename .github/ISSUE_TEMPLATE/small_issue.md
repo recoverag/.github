@@ -2,7 +2,7 @@
 name: Small Issue
 about: Clear scope, can start immediately
 title: ''
-labels: '!effort:small'
+labels: '!size:small'
 assignees: ''
 projects: 'recoverag/6'
 ---

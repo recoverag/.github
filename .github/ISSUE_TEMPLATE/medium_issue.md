@@ -2,7 +2,7 @@
 name: Medium Issue
 about: Needs breakdown into small sub-issues
 title: ''
-labels: '!effort:medium, needs-breakdown'
+labels: '!size:medium, needs-breakdown'
 assignees: ''
 projects: 'recoverag/6'
 ---

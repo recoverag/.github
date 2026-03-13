@@ -2,7 +2,7 @@
 name: Large Issue
 about: Requires RFC and breakdown before work begins
 title: ''
-labels: '!effort:large, needs-breakdown, needs-rfc'
+labels: '!size:large, needs-breakdown, needs-rfc'
 assignees: ''
 projects: 'recoverag/6'
 ---
