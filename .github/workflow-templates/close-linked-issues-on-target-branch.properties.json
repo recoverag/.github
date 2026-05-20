@@ -1,6 +1,0 @@
-{
-  "name": "Close linked issues on target branch merge",
-  "description": "Closes issues linked to merged pull requests when they are merged into a configured non-default branch.",
-  "iconName": "octicon issue-closed",
-  "categories": ["Automation"]
-}

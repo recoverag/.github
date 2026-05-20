@@ -2,12 +2,6 @@ name: Close linked issues on target branches (reusable)
 
 on:
   workflow_call:
-    inputs:
-      target_branches:
-        description: "Comma-separated list of base branches that should trigger issue closing"
-        required: false
-        default: "release"
-        type: string
 
 permissions:
   contents: read
@@ -24,29 +18,11 @@ jobs:
     steps:
       - name: Close linked issues
         uses: actions/github-script@v7
-        env:
-          TARGET_BRANCHES: ${{ inputs.target_branches }}
         with:
           script: |
             const pr = context.payload.pull_request;
             if (!pr) {
               core.setFailed("No pull request payload found.");
-              return;
-            }
-
-            const targets = (process.env.TARGET_BRANCHES || "")
-              .split(",")
-              .map((b) => b.trim())
-              .filter(Boolean);
-
-            if (targets.length === 0) {
-              core.setFailed("Input 'target_branches' is empty.");
-              return;
-            }
-
-            const baseRef = pr.base.ref;
-            if (!targets.includes(baseRef)) {
-              core.info(`Base branch '${baseRef}' is not configured (${targets.join(", ")}). Skipping.`);
               return;
             }
 
