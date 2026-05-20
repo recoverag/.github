@@ -1,0 +1,17 @@
+name: Close linked issues on target branch merge
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: write
+
+jobs:
+  close-linked-issues:
+    if: github.event.pull_request.merged == true
+    uses: recoverag/.github/.github/workflows/close-linked-issues-on-target-branch.yml@main
+    with:
+      target_branches: release
