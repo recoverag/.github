@@ -1,0 +1,17 @@
+name: Close linked issues on dev merge
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: write
+
+jobs:
+  close:
+    if: >
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.base.ref == 'dev'
+    uses: recoverag/.github/.github/workflows/close-linked-issues-on-target-branch.yml@main
