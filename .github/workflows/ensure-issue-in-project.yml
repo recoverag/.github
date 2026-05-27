@@ -41,30 +41,61 @@ jobs:
               const owner = match[1];
               const number = Number(match[2]);
 
-              const projectData = await github.graphql(
-                `
-                query($owner: String!, $number: Int!) {
-                  organization(login: $owner) {
-                    projectV2(number: $number) {
-                      id
+              async function resolveOrgProjectId(login, num) {
+                try {
+                  const data = await github.graphql(
+                    `
+                    query($owner: String!, $number: Int!) {
+                      organization(login: $owner) {
+                        projectV2(number: $number) {
+                          id
+                        }
+                      }
                     }
-                  }
-                  user(login: $owner) {
-                    projectV2(number: $number) {
-                      id
-                    }
-                  }
+                    `,
+                    { owner: login, number: num }
+                  );
+                  return data?.organization?.projectV2?.id || null;
+                } catch {
+                  return null;
                 }
-                `,
-                { owner, number }
-              );
+              }
 
-              requiredProjectId =
-                projectData?.organization?.projectV2?.id ||
-                projectData?.user?.projectV2?.id;
+              async function resolveUserProjectId(login, num) {
+                try {
+                  const data = await github.graphql(
+                    `
+                    query($owner: String!, $number: Int!) {
+                      user(login: $owner) {
+                        projectV2(number: $number) {
+                          id
+                        }
+                      }
+                    }
+                    `,
+                    { owner: login, number: num }
+                  );
+                  return data?.user?.projectV2?.id || null;
+                } catch {
+                  return null;
+                }
+              }
+
+              const repoOwnerType = context.payload.repository?.owner?.type;
+              if (repoOwnerType === "Organization") {
+                requiredProjectId = await resolveOrgProjectId(owner, number);
+                if (!requiredProjectId) {
+                  requiredProjectId = await resolveUserProjectId(owner, number);
+                }
+              } else {
+                requiredProjectId = await resolveUserProjectId(owner, number);
+                if (!requiredProjectId) {
+                  requiredProjectId = await resolveOrgProjectId(owner, number);
+                }
+              }
 
               if (!requiredProjectId) {
-                core.setFailed(`Project not found: ${requiredProject}`);
+                core.setFailed(`Project not found or not accessible: ${requiredProject}`);
                 return;
               }
             }
