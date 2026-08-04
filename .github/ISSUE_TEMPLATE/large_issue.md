@@ -2,10 +2,13 @@
 name: Large Issue
 about: Requires RFC and breakdown before work begins
 title: ''
-labels: '!size:large, needs-breakdown, needs-rfc'
+labels: 'needs-breakdown, needs-rfc'
 assignees: ''
 projects: 'recoverag/6'
 ---
+
+<!-- Set Size to "large" and pick a Priority in the sidebar.
+     Templates cannot preset issue fields. -->
 
 ## Problem
 

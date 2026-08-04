@@ -2,10 +2,13 @@
 name: Medium Issue
 about: Needs breakdown into small sub-issues
 title: ''
-labels: '!size:medium, needs-breakdown'
+labels: 'needs-breakdown'
 assignees: ''
 projects: 'recoverag/6'
 ---
+
+<!-- Set Size to "medium" and pick a Priority in the sidebar.
+     Templates cannot preset issue fields. -->
 
 ## Problem
 
