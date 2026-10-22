@@ -26,3 +26,11 @@ projects: 'recoverag/6'
 ## Affected areas
 
 [Components/services touched]
+
+<!-- For visible UI work only: link the target repository's design guidance and
+     applicable agreed reference screens. Identify shared components/patterns to
+     reuse and ownership/dependencies across the sub-issues. Assign scoped
+     visual/accessibility acceptance to the relevant children: desktop, narrow
+     and enlarged text, long content, applicable loading/empty/error/recovery
+     states, keyboard access and focus. Preserve domain meanings, permissions,
+     feature gates, drafts and uncertain saves. Omit for non-UI work. -->
