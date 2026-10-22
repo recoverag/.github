@@ -17,3 +17,11 @@ projects: 'recoverag/6'
 ## Definition of Done
 
 - [ ] [One concrete criterion]
+
+<!-- For visible UI work only: link the target repository's design guidance and
+     applicable agreed reference screens. Name existing components/patterns to
+     reuse, and add scoped visual/accessibility acceptance criteria: desktop,
+     narrow and enlarged text, representative long content and relevant
+     loading/empty/error/recovery states, keyboard access and focus. Preserve
+     domain meanings, permissions, feature gates, drafts and uncertain saves.
+     Omit this guidance for work without a visible UI change. -->

@@ -26,3 +26,12 @@ projects: 'recoverag/6'
 
 - [ ] #issue1
 - [ ] #issue2
+
+<!-- For visible UI work only: link the target repository's design guidance and
+     applicable agreed reference screens from the RFC and implementation issues.
+     Identify shared component/pattern owners, agreement gates and integration
+     dependencies. Assign cross-page visual/accessibility acceptance to children:
+     desktop, narrow and enlarged text, long content, applicable loading/empty/
+     error/recovery states, keyboard access and focus. Preserve domain meanings,
+     permissions, feature gates, drafts and uncertain saves. Keep product-specific
+     design rules in the target repository; omit this guidance for non-UI work. -->
